@@ -8,7 +8,7 @@ public class Kassapaate {
     private int maukkaat;
 
     public Kassapaate() {
-        this.kassassaRahaa = 1000;
+        this.kassassaRahaa = 100000;
     }
 
     public int syoEdullisesti(int maksu) {
