@@ -11,3 +11,4 @@
 
 ## Todo-list
 + [vaatimusmäärittely](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
++ [tuntikirjanpito](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
