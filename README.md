@@ -1,7 +1,7 @@
 # Ohjelmistotekniikka
 
 ## Tehtävät
-
+rike
 ### Viikko 1
 
 [gitlog.txt](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
