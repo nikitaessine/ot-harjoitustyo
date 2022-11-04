@@ -1,0 +1,17 @@
+.
+├── Desktop -> /home/ad/home/n/nikitaes/Desktop
+├── Documents -> /home/ad/home/n/nikitaes/Documents
+├── Downloads -> /home/ad/home/n/nikitaes/Downloads
+└── kurssit
+    └── ot2022
+        └── viikko1
+            └── unicafe
+                ├── poetry.lock
+                ├── pyproject.toml
+                └── src
+                    ├── index.py
+                    ├── kassapaate.py
+                    ├── maksukortti.py
+                    └── tests
+                        ├── __init__.py
+                        └── maksukortti_test.py

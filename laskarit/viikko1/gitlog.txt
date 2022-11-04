@@ -1,0 +1,114 @@
+commit 05e32d5e3e99de4972d274e212bed18dc5388e65
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:42:24 2022 +0200
+
+    t1
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ tiedostoja/file3.txt                 | 1 +
+ 3 files changed, 1 insertion(+)
+
+commit c110b078b319bed19b99e710de4e112b7f523dfe
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:40:07 2022 +0200
+
+    t11
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 797602a6f4f30713beb6b95b56e3419de4082791
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:38:13 2022 +0200
+
+    peruminene
+
+ kolmas.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit f59685571042080bfd01ec2055aa59981a7ce3dd
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:36:13 2022 +0200
+
+    t9
+
+ eka.txt    | 2 ++
+ kolmas.txt | 1 +
+ 2 files changed, 3 insertions(+)
+
+commit aa0c752e79fd54674a0f9bfc3861b277125f4202
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:34:30 2022 +0200
+
+    uudelleennimitys
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 869123f5fb7bb86883c3ace0408021cddf54281b
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:28:54 2022 +0200
+
+    poisto
+
+ kolmas.txt | 0
+ toinen.txt | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit bfd5310cc158e1dc33ec6aa48a09ca178f8a569e
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:27:26 2022 +0200
+
+    paljon tekstiä
+
+ tiedosto.txt | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+commit 9460b8667ea85ea411f98ef2385d9ebba29aa7e7
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:26:49 2022 +0200
+
+    paljon tekstiä
+
+ tiedosto.txt | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+
+commit df53e74650b78df8668465dc04379f580a640833
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:23:38 2022 +0200
+
+    harjoittelua
+
+ stuff/file1.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 73ade177a9b3d05dd23d2eb85bd6f103d5443f92
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:22:45 2022 +0200
+
+    kolmas
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit a82be14ce65bd82877d5b670c5cd9a4743096954
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:22:01 2022 +0200
+
+    lisäys ja muutos
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 217bc6ed6cdedb9ececd0081f263b6471406051e
+Author: Nikita Essine <nikita.essine@helsinki.fi>
+Date:   Fri Nov 4 17:20:45 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
