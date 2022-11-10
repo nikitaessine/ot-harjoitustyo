@@ -10,8 +10,8 @@
 
 ## Dokumentaatio
 
--[Työaikakirjnapito](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/tyokirjanpito.md)
+- [Työaikakirjnapito](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/tyokirjanpito.md)
 
--[Vaatimusmäärittely](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+- [Vaatimusmäärittely](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
 
