@@ -3,4 +3,5 @@
 | päivä | aika | mitä tein  |
 | :----:|:-----| :-----|
 | 10.11. | 1    | vaatimusmäärittelyn kirjoittaminen|
-| yht   | 1   | | 
+| 21.11. | 4    | ensimmäinen toiminnuallisuus, testien kirjoittaminen|
+| yht   | 5   | | 
