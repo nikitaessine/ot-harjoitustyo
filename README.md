@@ -1,7 +1,9 @@
 # Ohjelmistotekniikka
 
+## Lasten matematiikkasovellus
 
-## Dokumentaatio
+
+### Dokumentaatio
 
 - [Työaikakirjnapito](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/tyokirjanpito.md)
 
@@ -9,7 +11,7 @@
 
 - [Changelog](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
-## Asennus
+### Asennus
 
 1. Asenna riippuvuudet komennolla:
 
@@ -29,9 +31,9 @@ poetry run invoke build
 poetry run invoke start
 ```
 
-## Komentorivitoiminnot
+### Komentorivitoiminnot
 
-### Ohjelman suorittaminen
+#### Ohjelman suorittaminen
 
 Ohjelman pystyy suorittamaan komennolla:
 
@@ -39,7 +41,7 @@ Ohjelman pystyy suorittamaan komennolla:
 poetry run invoke start
 ```
 
-### Testaus
+#### Testaus
 
 Testit suoritetaan komennolla:
 
@@ -47,7 +49,7 @@ Testit suoritetaan komennolla:
 poetry run invoke test
 ```
 
-### Testikattavuus
+#### Testikattavuus
 
 Testikattavuusraportin voi generoida komennolla:
 
