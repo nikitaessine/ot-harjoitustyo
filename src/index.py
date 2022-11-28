@@ -1,12 +1,18 @@
 from equations import Equations
+from tkinter import Tk
+from ui import UI
 
 def main():
-    
-    print("Hei! lasketaanpas vähän matikkaa")
 
-    while True:
-        eq = Equations()
-        eq.equation_generator()
+    window = Tk()
+    window.title("Matikkasovellus")
+    equat = Equations()
+    ui = UI(window,equat)
+    ui.start()
+
+    window.mainloop()
+
+    #print("Hei! lasketaanpas vähän matikkaa")
 
 
 if __name__ == "__main__":
