@@ -1,5 +1,5 @@
-from equations import Equations
 from tkinter import Tk
+from equations import Equations
 from ui import UI
 
 
