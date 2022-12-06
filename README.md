@@ -11,6 +11,8 @@
 
 - [Changelog](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
+- [Realese](https://github.com/nikitaessine/ot-harjoitustyo/releases)
+
 ### Asennus
 
 1. Asenna riippuvuudet komennolla:
