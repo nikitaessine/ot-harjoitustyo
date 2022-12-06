@@ -1,4 +1,4 @@
-from tkinter import Tk, ttk, constants, StringVar
+from tkinter import ttk, StringVar
 import random
 from equations import Equations
 

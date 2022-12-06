@@ -1,6 +1,6 @@
 from tkinter import Tk
 from equations import Equations
-from ui import UI
+from ui.ui import UI
 
 
 def main():
