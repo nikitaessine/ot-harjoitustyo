@@ -7,4 +7,5 @@
 | 26.11  | 4    | käyttöliittymän luonti ja lausekkeen ilmestyminen ikkunaan|
 | 27.11  | 3    | kannustusviestin lisääminen vastauksen jälkeen, ei tosin toimi halutulla tavalla vielä|
 | 28.11  | 1    | välipalautuksen viimeistely|
-| yht   | 13   | | 
+| 6.12   | 3    | ei uutta toiminnallisuutta, github realese luotu, testien kijroittaminen|
+| yht   | 16   | | 
