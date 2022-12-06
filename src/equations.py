@@ -1,5 +1,6 @@
 import random
 
+
 class Equations:
 
     def __init__(self):
@@ -30,14 +31,12 @@ class Equations:
 
         self.operat = random.choice(self.operators)
 
-        #if self.operat == "+":
-            #self.plus()
-        #else:
-            #self.minus()
+        # if self.operat == "+":
+        # self.plus()
+        # else:
+        # self.minus()
 
-        #self.result_checker()
-
-
+        # self.result_checker()
 
     def plus(self):
 

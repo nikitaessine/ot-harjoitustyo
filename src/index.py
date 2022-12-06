@@ -2,12 +2,13 @@ from equations import Equations
 from tkinter import Tk
 from ui import UI
 
+
 def main():
 
     window = Tk()
     window.title("Matikkasovellus")
     equat = Equations()
-    ui = UI(window,equat)
+    ui = UI(window, equat)
     ui.start()
 
     window.mainloop()
