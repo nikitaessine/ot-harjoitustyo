@@ -1,5 +1,5 @@
 import unittest
-from equations import Equations
+from service.equations import Equations
 
 
 class TestEquations(unittest.TestCase):

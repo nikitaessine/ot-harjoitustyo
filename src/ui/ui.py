@@ -1,6 +1,6 @@
 from tkinter import ttk, StringVar
 import random
-from equations import Equations
+from service.equations import Equations
 
 
 class UI:
