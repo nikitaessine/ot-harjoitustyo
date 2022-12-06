@@ -1,6 +1,6 @@
 from tkinter import Tk, ttk, constants, StringVar
-from equations import Equations
 import random
+from equations import Equations
 
 
 class UI:
@@ -51,15 +51,6 @@ class UI:
             command=lambda: [self.result_checker(), self.change_equation()]
         )
 
-        '''
-        new_equation_button = ttk.Button(
-            master=self._root,
-            text="seuraava",
-            command=self.change_equation()
-
-        )
-        '''
-
         heading_label.grid(row=0, column=0)
         label.grid(row=1, column=0)
         self.answer.grid(row=2, column=0)
@@ -85,7 +76,6 @@ class UI:
                 print("meni oikeesttin iffiin")
                 return random.choice(self.equations.cheers_if_wrong_answer)
 
-            
             return random.choice(self.equations.cheers)
 
         else:
@@ -100,5 +90,4 @@ class UI:
                 print(random.choice(self.equations.cheers), right_result)
 
                 return random.choice(self.equations.cheers_if_wrong_answer)
-            
             return random.choice(self.equations.cheers)
