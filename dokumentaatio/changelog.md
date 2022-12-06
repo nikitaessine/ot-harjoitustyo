@@ -12,3 +12,10 @@
 - Vastauksen tarkistusnappi lisätty
 - Kannustusviesti ilmestyy oikean vastauksen jälkeen
 - Yritetty lisätä kannustusviesti myös väärän vastauksen jälkeen, mutta vaiheessa vielä
+
+## Viikko 5
+
+- Koodin refaktorointi 
+- Pylint virheiden korjaaminen
+- Testauskattavuuden nostaminen
+
