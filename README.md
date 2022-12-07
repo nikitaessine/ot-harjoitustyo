@@ -11,7 +11,7 @@
 
 - [Changelog](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
-- [Realese](https://github.com/nikitaessine/ot-harjoitustyo/releases)
+- [Release](https://github.com/nikitaessine/ot-harjoitustyo/releases)
 
 ### Asennus
 
