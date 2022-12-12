@@ -38,18 +38,20 @@ class UI:
 
         print("menee tähä")
 
+        answer_button = ttk.Button(
+            master=self._root,
+            text="vastaa",
+            command=lambda: [self.result_checker(), self.change_equation(), self.clear_text()]
+        )
+
         if self.result_checker() == self.get_entry_value():
+            print('result checker toimiii')
             answer_label = ttk.Label(
                 master=self._root, textvariable=self.label_cheer)
         else:
             answer_label = ttk.Label(
                 master=self._root, textvariable=self.label_cheer)
 
-        answer_button = ttk.Button(
-            master=self._root,
-            text="vastaa",
-            command=lambda: [self.result_checker(), self.change_equation()]
-        )
 
         heading_label.grid(row=0, column=0)
         label.grid(row=1, column=0)
@@ -60,6 +62,7 @@ class UI:
 
     def result_checker(self):
         #print("entry value", self.get_entry_value())
+        print('result checkerin sisäl ollaa')
 
         if self.equations.operat == '+':
 
@@ -73,10 +76,12 @@ class UI:
 
             if right_result == value:
 
-                print("meni oikeesttin iffiin")
+                print("meni cheers if wrong iffiin")
                 return random.choice(self.equations.cheers_if_wrong_answer)
 
-            return random.choice(self.equations.cheers)
+            else:
+                print('meni cheers iffii')
+                return random.choice(self.equations.cheers)
 
         else:
 
@@ -90,4 +95,9 @@ class UI:
                 print(random.choice(self.equations.cheers), right_result)
 
                 return random.choice(self.equations.cheers_if_wrong_answer)
-            return random.choice(self.equations.cheers)
+            else:
+            
+                return random.choice(self.equations.cheers)
+
+    def clear_text(self):
+        self.answer.delete(0)
