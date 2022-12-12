@@ -61,3 +61,19 @@ poetry run invoke coverage-report
 
 Raportti generoituu _htmlcov_-hakemistoon.
 
+#### Formatointi
+
+Koodin formatointi onnistuu komennolla:
+
+```bash
+poetry run invoke format
+```
+
+#### Koodin staattinen analyysi
+
+Koodin analyysi onnistuu komennolla:
+
+```bash
+poetry run pylint src
+```
+
