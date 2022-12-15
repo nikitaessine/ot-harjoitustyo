@@ -17,7 +17,7 @@ class Equations:
                                        "Hups! Nyt jokin meni pieleen",
                                        "Melkein! Kokeile uudestaan"]
 
-    def askResult(self):
+    def ask_result(self):
         while True:
             try:
                 return int(input())
