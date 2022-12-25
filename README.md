@@ -13,6 +13,8 @@
 
 - [Changelog](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
+- [Testausdokumentti](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/testausdokumentti.md)
+
 - [Release](https://github.com/nikitaessine/ot-harjoitustyo/releases)
 
 ### Asennus
