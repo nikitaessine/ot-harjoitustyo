@@ -2,6 +2,18 @@ import random
 
 
 class Equations:
+    """Luokka, jonka avulla luodaan lauseke ja tehdään
+    matemaattinen toiminnallisuus, palautetaan kannustusviestit
+    
+    Attributes:
+        num1: Lausekkeen ensimmöinen numero
+        num2: Lausekkeen toinen numero
+        right_result: Lausekkeen oikea vastaus
+        operat: Lausekkeen operaattori
+        operators: Mahdolliset operaattorit
+        cheers: Kannustusviesti, jos oikea vastaus
+        cheers_if_wrong_answer: Kannustusviesti, jos väärä vastaus
+    """
 
     def __init__(self):
         self.num1 = 0
