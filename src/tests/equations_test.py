@@ -18,4 +18,4 @@ class TestEquations(unittest.TestCase):
         self.assertEqual(self.equations.minus(), -1)
 
     def test_return_value(self):
-          self.assertEqual(str(self.equations), 'Paljonko on 6 + 7?')
+        self.assertEqual(str(self.equations), 'Paljonko on 6 + 7?')

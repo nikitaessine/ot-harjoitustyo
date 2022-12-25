@@ -19,7 +19,7 @@ def coverage_report(ctx):
 
 @task
 def format(ctx):
-    ctx.run("poetry run invoke format", pty=True)
+    ctx.run("autopep8 --in-place --recursive src", pty=True)
 
 @task 
 def lint(ctx):

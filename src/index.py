@@ -4,6 +4,9 @@ from ui.ui import UI
 
 
 def main():
+    """Pääohjelma, jossa luodaan oliot kaikelle
+    tarvittavalle toiminnallisuudelle    
+    """
 
     window = Tk()
     window.title("Matikkasovellus")
@@ -12,9 +15,6 @@ def main():
     ui.start()
 
     window.mainloop()
-
-    #print("Hei! lasketaanpas vähän matikkaa")
-
 
 if __name__ == "__main__":
     main()
