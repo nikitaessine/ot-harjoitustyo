@@ -7,7 +7,6 @@ def main():
     """Pääohjelma, jossa luodaan oliot kaikelle
     tarvittavalle toiminnallisuudelle    
     """
-
     window = Tk()
     window.title("Matikkasovellus")
     equat = Equations()
