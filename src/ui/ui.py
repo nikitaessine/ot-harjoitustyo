@@ -34,7 +34,6 @@ class UI:
         self.cheer_label = ttk.Label(
             master=self._root, text='Tsemppiä tehtäviin :)')
 
-
         check_button = ttk.Button(
             master=self._root,
             text="tarkasta",
@@ -55,7 +54,6 @@ class UI:
         check_button.grid(row=4, column=0)
         next_button.grid(row=4, column=1)
 
-
     def change_equation(self):
         """Kutsuu Equations-luokan olion metoda, joka vaihtaa lausekkeen
 
@@ -68,7 +66,7 @@ class UI:
 
     def entry_value(self):
         """Tallettaa käyttäjän syöttämän luvun
-        
+
         Returns:
             Käyttäjän syöttämä luku
         """
@@ -77,7 +75,7 @@ class UI:
 
     def user_cheer(self, boolean):
         """Kannustaa käyttäjää vastauksesta riippuen
-        
+
         Args:
             boolean: True, jos oikea vastaus
         """

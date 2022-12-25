@@ -4,7 +4,7 @@ import random
 class Equations:
     """Luokka, jonka avulla luodaan lauseke ja tehdään
     matemaattinen toiminnallisuus, palautetaan kannustusviestit
-    
+
     Attributes:
         num1: Lausekkeen ensimmöinen numero
         num2: Lausekkeen toinen numero
@@ -62,7 +62,7 @@ class Equations:
 
     def plus(self):
         """Laskee generoidun lausekkeen vastauksen
-        
+
         Returns:
             Oikea vastaus
         """
@@ -72,7 +72,7 @@ class Equations:
 
     def minus(self):
         """Laskee generoidun lausekkeen vastauksen
-        
+
         Returns:
             Oikea vastaus
         """
@@ -82,7 +82,7 @@ class Equations:
 
     def result_checker(self, entry_value):
         """Tarkistaa antoiko käyttäjä oikean vastauksen
-        
+
         Args: 
             entry_value: Käyttäjän syöttämä luku
 
@@ -101,7 +101,7 @@ class Equations:
 
     def cheer_if_right_result(self):
         """Antaa kannustusviestin, jos vastaus oikein
-        
+
         Returns:
             Palauttaa kannsutusviestin        
         """
@@ -110,7 +110,7 @@ class Equations:
 
     def cheer_if_wrong_result(self):
         """Antaa kannustusviestin, jos vastaus väärin
-        
+
         Returns:
             Palauttaa kannsutusviestin        
         """
@@ -119,7 +119,7 @@ class Equations:
 
     def __str__(self):
         """Muodostaa lausekkeesta merkkijonomuotoisen esityksen
-        
+
         Returns:
             Merkkijono, joka kertoo matemaattisen lausekkeen
         """
