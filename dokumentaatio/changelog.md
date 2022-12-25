@@ -19,3 +19,13 @@
 - Pylint virheiden korjaaminen
 - Testauskattavuuden nostaminen
 
+## Viikko 6
+
+- Koodin refaktorointi ja uudelleen luonti
+
+## Viikko 7
+
+- Projektin viimeistely
+- Dokumentointi
+- Testien laajentaminen
+- Final release
