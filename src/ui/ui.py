@@ -82,7 +82,6 @@ class UI:
             boolean: True, jos oikea vastaus
         """
         cheer = ''
-        print(boolean)
         if boolean == True:
             cheer = self.equations.cheer_if_right_result()
         else:
