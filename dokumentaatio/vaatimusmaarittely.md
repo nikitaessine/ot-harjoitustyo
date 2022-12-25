@@ -17,7 +17,7 @@ Sovelluksen käyttöliittymä on alussa tekstieditoripohjainen, mutta kehityksen
 ### Sovelluksen avautuessa
 
 - Sovellus tervehtii käyttäjää (valmis)
-- Antaa mahdollisuuden valita matemaattiset operaattorit, joita halutaan harjoitella, mm. plus- ja minuslaskut, kerto- ja jakolaskut.
+- Antaa mahdollisuuden valita matemaattiset operaattorit, joita halutaan harjoitella, mm. plus- ja minuslaskut.(valmis)
 - Sovellus generoi satunnaisesti kaksi lukua ja muodostaa lausekkeen (valmis)
 - Käyttäjä kirjoittaa vastauksensa vastauskenttään (valmis)
 - Sovellus onnittelee oikeasta vastauksesta ja antaa uuden satunnaisesti generoidun lausekkeen (valmis)
