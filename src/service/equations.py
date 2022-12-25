@@ -16,6 +16,18 @@ class Equations:
     """
 
     def __init__(self):
+        """Luokan konstruktori, joka luo lausekkeen
+
+        Args:
+            num1: Lausekkeen ensimmöinen numero
+            num2: Lausekkeen toinen numero
+            right_result: Lausekkeen oikea vastaus
+            operat: Lausekkeen operaattori
+            operators: Mahdolliset operaattorit
+            cheers: Kannustusviesti, jos oikea vastaus
+            cheers_if_wrong_answer: Kannustusviesti, jos väärä vastaus
+
+        """
         self.num1 = 0
         self.num2 = 0
         self.right_result = 0
