@@ -9,6 +9,8 @@
 
 - [Vaatimusmäärittely](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
+- [Arkkitehtuuri](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+
 - [Changelog](https://github.com/nikitaessine/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
 - [Release](https://github.com/nikitaessine/ot-harjoitustyo/releases)
@@ -25,12 +27,6 @@ poetry install
 
 ```bash
 poetry run invoke build
-```
-
-3. Käynnistä sovellus komennolla:
-
-```bash
-poetry run invoke start
 ```
 
 ### Komentorivitoiminnot
