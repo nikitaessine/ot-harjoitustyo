@@ -44,6 +44,10 @@ class Equations:
                                        "Melkein! Kokeile uudestaan"]
 
     def ask_result(self):
+        """Tarkistaa onko vastaus annettu numeroina
+        Args:
+            int(input()): Käyttäjän syöttämä vastaus        
+        """
         while True:
             try:
                 return int(input())
@@ -51,6 +55,7 @@ class Equations:
                 print("Anna vain numeroita!")
 
     def equation_generator(self):
+        """Luo lausekkeen numeroista 0 ja 10 väliltä"""
 
         self.num1 = random.randint(0, 10)
         self.num2 = random.randint(0, 10)
@@ -58,16 +63,34 @@ class Equations:
         self.operat = random.choice(self.operators)
 
     def plus(self):
+        """Laskee generoidun lausekkeen vastauksen
+        
+        Returns:
+            Oikea vastaus
+        """
 
         right_result = self.num1 + self.num2
         return right_result
 
     def minus(self):
+        """Laskee generoidun lausekkeen vastauksen
+        
+        Returns:
+            Oikea vastaus
+        """
 
         right_result = self.num1 - self.num2
         return right_result
 
     def result_checker(self, entry_value):
+        """Tarkistaa antoiko käyttäjä oikean vastauksen
+        
+        Args: 
+            entry_value: Käyttäjän syöttämä luku
+
+        Returns:
+            True, jos oikea vastaus ja käyttäjän syöttämä luku ovat samat
+        """
         print('result checkerii päästii')
         if self.operat == '+':
             print("entry value", entry_value)
@@ -82,12 +105,27 @@ class Equations:
             return False
 
     def cheer_if_right_result(self):
+        """Antaa kannustusviestin, jos vastaus oikein
+        
+        Returns:
+            Palauttaa kannsutusviestin        
+        """
         self.cheer = random.choice(self.cheers)
         return self.cheer
 
     def cheer_if_wrong_result(self):
+        """Antaa kannustusviestin, jos vastaus väärin
+        
+        Returns:
+            Palauttaa kannsutusviestin        
+        """
         self.cheer_if_wrong = random.choice(self.cheers_if_wrong_answer)
         return self.cheer_if_wrong
 
     def __str__(self):
+        """Muodostaa lausekkeesta merkkijonomuotoisen esityksen
+        
+        Returns:
+            Merkkijono, joka kertoo matemaattisen lausekkeen
+        """
         return f"Paljonko on {self.num1} {self.operat} {self.num2}?"
