@@ -4,7 +4,17 @@ from service.equations import Equations
 
 
 class UI:
+    """Käyttöliittymästä vastaava luokka"""
+
     def __init__(self, root, equations: Equations):
+        """Luokan konstruktori
+        Args:
+            root: Tkrinter-elementti, jonka sisälle käyttöliittymä alustetaan
+            label_var: Generoitu lauseke
+            equations: Equations-luokan olio
+            answer: Tähän talletetaan käyttäjän syöttämä luku
+            cheer_label: Kannustusviesti
+        """
         self._root = root
         self.label_var = None
         self.equations = equations
@@ -15,6 +25,7 @@ class UI:
         self.cheer_label = None
 
     def start(self):
+        """Käyttöliittymän komponenttien luonti"""
         self.equations.equation_generator()
         self.label_var = StringVar()
         self.label_var.set(self.equations)
@@ -51,18 +62,33 @@ class UI:
         #new_equation_button.grid(row=4, column=1)
 
     def change_equation(self):
+        """Kutsuu Equations-luokan olion metoda, joka vaihtaa lausekkeen
+
+           Asettaa merkkijonon label-komponenttiin 
+
+        """
         print('change equationis ollaa')
         self.equations.equation_generator()
         self.label_var.set(self.equations)
         # self.label_cheer.set(self.equations.result_checker(self.entry_value))
 
     def entry_value(self):
+        """Tallettaa käyttäjän syöttämän luvun
+        
+        Returns:
+            Käyttäjän syöttämä luku
+        """
         print('entry values ollaa')
         value = self.answer.get()
         print(value)
         return value
 
     def user_cheer(self, boolean):
+        """Kannustaa käyttäjää vastauksesta riippuen
+        
+        Args:
+            boolean: True, jos oikea vastaus
+        """
         print('user cheeris ollaa')
         cheer = ''
         print(boolean)
@@ -74,4 +100,5 @@ class UI:
         self.cheer_label.config(text=cheer)
 
     def clear_text(self):
+        """Tyhjentää tekstikentän"""
         self.answer.delete(0)
