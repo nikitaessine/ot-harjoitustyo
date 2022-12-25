@@ -32,8 +32,6 @@ class Equations:
         self.num2 = 0
         self.right_result = 0
         self.operat = ""
-        #self.cheer = ""
-        #self.cheer_if_wrong = ""
         self.operators = ["+", "-"]
         self.cheers = ["Hyvää työtä!",
                        "Hyvin opittu!",
@@ -91,15 +89,12 @@ class Equations:
         Returns:
             True, jos oikea vastaus ja käyttäjän syöttämä luku ovat samat
         """
-        print('result checkerii päästii')
         if self.operat == '+':
-            print("entry value", entry_value)
             if entry_value == self.plus():
                 return True
             return False
 
         else:
-            print("entry value", entry_value)
             if entry_value == self.minus():
                 return True
             return False
